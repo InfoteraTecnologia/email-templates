@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "3bc96836-7ddc-41f2-9244-91b6306803cf",
+		"name": "Infotravel-media upload",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31389063",
+		"_collection_link": "https://warped-firefly-265840.postman.co/workspace/New-Team-Workspace~6a45a019-53b1-4ab3-9c1f-6fd797a9e959/collection/31389063-3bc96836-7ddc-41f2-9244-91b6306803cf?action=share&source=collection_link&creator=31389063"
+	},
+	"item": [
+		{
+			"name": "Simple Upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "https://media.infotravel.com.br/api/upload/file",
+					"protocol": "https",
+					"host": [
+						"media",
+						"infotravel",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"upload",
+						"file"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
