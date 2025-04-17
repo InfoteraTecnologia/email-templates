@@ -22,6 +22,7 @@ Open [localhost:3000](http://localhost:3000) with your browser to see the result
 
 - The fallback fonts are more important than the ones you pick because of [compatibility](https://www.caniemail.com/features/css-at-font-face/), so design with that in mind.
 - Only pick fonts that exist in google fonts.
+- On google fonts, open the link it gives you on embed code (starts with fonts.googleapis), it will show you all the fonts options. Copy the link to the desired weight from there.
 
 ## Developing
 
